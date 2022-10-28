@@ -11,7 +11,7 @@ max = 0.0
 
 for i in range(len(list)):
     temp = float(list[i])
-    temp %= 1
+    temp %= 1   
     if temp > max:
         max = temp
     elif temp < min:
